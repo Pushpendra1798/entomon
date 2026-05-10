@@ -103,6 +103,7 @@ li::before {
 }
 li {
     margin-top: 10px;
+    font-weight: 600;
 }
 
 ul p {
