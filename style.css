@@ -33,12 +33,12 @@ html, body {
 .header {
     display: flex;
     justify-content: flex-start;
-    gap: 45px;
+    gap: 75px;
 }
 
 .header h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     color: rgba(0, 0, 0, 0.76);
 }
 
@@ -50,18 +50,19 @@ html, body {
 
 .search-box i {
     position: absolute;
-    left: 10px;
-    font-size: 13px;
+    left: 15px;
+    font-size: 20px;
     color: #888;
 }
 
 .search-box input {
-    padding: 8px 12px 8px 30px;
+    padding: 8px 12px 8px 45px;
     border-radius: 20px;
     border: 1px solid #ccc;
-    width: 180px;
-    height: 25px;
+    width: 250px;
+    height: 35px;
     background-color: hwb(0 89% 11%);
+    font-size: 20px;
 }
 section {
     display: flex;
@@ -78,15 +79,15 @@ section h1 {
     font-style: italic;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.76);
-    font-size: 37px;
+    font-size: 47px;
     letter-spacing: 0.09em;
 }
 .cockroach img {
     position: absolute;
     top: 55%;
     left: 50%;
-    height: 500px;
-    width: 250px;
+    height: 650px;
+    width: 350px;
     transform: translate(-50%, -50%);
 }
 
@@ -102,8 +103,9 @@ li::before {
     margin-right: 8px;
 }
 li {
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: 600;
+    font-size: 24px;
 }
 
 ul p {
@@ -112,6 +114,7 @@ ul p {
     border-bottom: 1px solid #ddd;
     display: flex;
     align-items: center;
+    font-size: 22px;
 }
 
 .navbar {
@@ -124,15 +127,15 @@ button {
     border: none;
     background-color: #b9392f;
     color: white;
-    opacity: 0.8;
+    opacity: 0.85;
+    font-size: 19px;
 }
 
 .Genus {
     color: white;
-    padding: 20px;
-    margin-left: 165px;
-    margin-top: 25px;
-    font-size: 27px;
+    margin-left: 250px;
+    margin-top: 110px;
+    font-size: 40px;
     opacity: 0.9;
 }
 
@@ -142,24 +145,24 @@ button {
     align-items: center;
     color: white;
     margin-top: 30px;
-    margin-left: 180px;
+    margin-left: 250px;
 }
 
 .beetle-side {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80px;
+    font-size: 20px;
 }
 .beetle-side img {
-    height: 80px;
-    width: 64px;
+    height: 120px;
+    width: 105px;
 }
 
 .divider {
     border-left: 1.5px solid white;
-    height: 80px;
-    margin-top: 12px
+    height: 110px;
+    margin-top: 20px
 }
 
 .details-side {
@@ -170,7 +173,7 @@ button {
     padding: 7px;
 }
 .specs-item {
-    font-size: 14px;
+    font-size: 21px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -186,8 +189,8 @@ button {
     flex-direction: column;
     align-items: flex-start;
     position: relative;
-    margin-top: 50px;
-    margin-left: 190px;
+    margin-top: 80px;
+    margin-left: 250px;
 }
 
 .toggle {
@@ -205,21 +208,21 @@ button {
 }
 
 .price {
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
 .btn {
     background-color: #dabc92;
     color: black;
-    padding: 8px 16px;
-    border-radius: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
     cursor: pointer;
 }
 
 .toggle img {
-    height: 28px;
-    width: 28px;
+    height: 37px;
+    width: 37px;
     margin-right: 5px;
     cursor: pointer;
 }
@@ -227,4 +230,5 @@ button {
 span {
     padding-top: 4px;
     padding-left: 4px;
+    font-size: 22px;
 }
