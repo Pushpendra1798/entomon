@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.left-side {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+}
+
+.right-side {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-color: #b9392f;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 45px;
+}
+
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.search-box {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.search-box i {
+    position: absolute;
+    left: 10px;
+    font-size: 13px;
+    color: #888;
+}
+
+.search-box input {
+    padding: 8px 12px 8px 30px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 180px;
+    height: 25px;
+    background-color: hwb(0 89% 11%);
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+section h1 {
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    transform: translateY(-50%) rotate(-90deg);
+    white-space: nowrap;
+    
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.76);
+    font-size: 37px;
+    letter-spacing: 0.09em;
+}
+.cockroach img {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    height: 500px;
+    width: 250px;
+    transform: translate(-50%, -50%);
+}
+
+section ul {
+    transform: translate(35%, 20%);
+    list-style: none;
+}
+
+li::before {
+    content: '•';
+    color: #b9392f;
+    font-size: 20px;
+    margin-right: 8px;
+}
+li {
+    margin-top: 10px;
+}
+
+ul p {
+    width: 30%;
+    padding: 0px 0px 10px 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+button {
+    border: none;
+    background-color: #b9392f;
+    color: white;
+    opacity: 0.8;
+}
+
+.Genus {
+    color: white;
+    padding: 20px;
+    margin-left: 165px;
+    margin-top: 25px;
+    font-size: 27px;
+    opacity: 0.9;
+}
+
+.specs-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+.beetle-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+}
+.beetle-side img {
+    height: 80px;
+    width: 64px;
+}
+
+.divider {
+    border-left: 1.5px solid white;
+    height: 80px;
+    margin-top: 12px
+}
+
+.details-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 7px;
+    padding: 7px;
+}
+.specs-item {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+.specs-item i {
+    padding-right: 5px;
+}
+
+.product-actions {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+
+.toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.toggle-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #dabc92;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.toggle img {
+    height: 28px;
+    width: 28px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+span {
+    padding-top: 4px;
+    padding-left: 4px;
+}
